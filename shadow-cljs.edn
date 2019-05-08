@@ -2,7 +2,7 @@
 
  :dependencies [[binaryage/devtools "0.9.10"]
                 [proto-repl "0.3.1"]
-                [metasoarous/oz "1.5.0"]
+                [metasoarous/oz "1.6.0-alpha2"]
                 [reagent "0.8.1"]]
 
  :nrepl        {:port 3333}
