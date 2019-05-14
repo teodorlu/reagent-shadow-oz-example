@@ -2,8 +2,11 @@
 
  :dependencies [[binaryage/devtools "0.9.10"]
                 [proto-repl "0.3.1"]
-                [metasoarous/oz "1.6.0-alpha2"]
-                [reagent "0.8.1"]]
+                [metasoarous/oz "1.6.0-alpha2"
+                 :exclusions [cljsjs/vega cljsjs/vega-lite cljsjs/vega-embed cljsjs/vega-tooltip
+                              cljsjs/react cljsjs/react-dom cljsjs/react-dom-server cljsjs/create-react-class]]
+                [reagent "0.8.1"
+                 :exclusions [cljsjs/react cljsjs/react-dom cljsjs/react-dom-server cljsjs/create-react-class]]]
 
  :nrepl        {:port 3333}
 

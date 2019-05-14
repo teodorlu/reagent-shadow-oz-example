@@ -9,7 +9,7 @@
 (group-data "monkey" "slipper" "broom")
 
 (def line-plot
-  {:data {:values (group-data "monkey" "slipper" "broom")}
+  {:data {:values (group-data "monkey" "slipper" "broom" "dragon")}
    :encoding {:x {:field "x"}
               :y {:field "y"}
               :color {:field "col" :type "nominal"}}
