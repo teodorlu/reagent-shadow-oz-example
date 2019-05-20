@@ -7,7 +7,6 @@
                               cljsjs/react cljsjs/react-dom cljsjs/react-dom-server cljsjs/create-react-class]]
                 [reagent "0.8.1"
                  :exclusions [cljsjs/react cljsjs/react-dom cljsjs/react-dom-server cljsjs/create-react-class]]
-                [thheller/shadow-cljsjs "0.0.18"]
                 ]
 
  :nrepl        {:port 3333}
